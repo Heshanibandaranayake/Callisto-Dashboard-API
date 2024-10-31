@@ -1,0 +1,1193 @@
+{"accessrights":{
+    "Overview": {
+        "Access": {
+            "Accessible": 1,
+            "readonly": "0"
+        },
+        "parameters": {
+            "PartNumber": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "SerialNumber": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "NXPVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "MCUVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "RFBoardVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "DigitalBoardVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "BUCOnOff": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "Temperature": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "TimeRunning": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "Latitude": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "Longitude": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "GPSTime": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DeviceID": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DeviceIP": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DeviceGateway": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DeviceSubnet": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SNMPManagerIP": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SerialCommunicationMode": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "Port": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "BaudRate": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "Alarms": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "1"
+        },
+        "parameters": {
+            "RFMCULOAlarm": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444LOAlarm": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RxInputLowStatusAlarm": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RxInputOverDriveStatus": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "TxOnOffAlarm": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "TemperatureStatusAlarm": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "VoltageAlarm": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NoGPSAlarm": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "HardwareAlarm": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModemUnlock": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "Modulator-Demodulator": {
+        "Access": {
+            "Accessible": 1,
+            "readonly": "0"
+        },
+        "parameters": {
+            "ModTxModeofOperation": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "ModTxFrequency": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxOutputPowerLevel": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxAttenuation": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxOnOff": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxAGCALCOperation": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxModulationType": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxCodeRate": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxFEC": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxSpreading": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxSpreadingFactor": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTx10MHZOnOff": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxBER": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxEbNo": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxModeofOperation": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "DemodRxFrequency": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxInputPowerLevel": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxAttenuation": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxAGCALCOperation": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxModulationType": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxCodeRate": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxFEC": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxDataRate": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxSpreading": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxSpreadingFactor": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "Modem-Mode":{
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "ModTxModeofOperation":{
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "QoS":{
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            
+        }
+    },
+    "Frequency-Hopping-Modulator-Demodulator": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "ModTxFrequencyHoppingRange": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "ModTxFrequencyHopping": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxNumberofHops": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxFrequencyHoppingRange": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "DemodRxFrequencyHopping": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxNumberofHops": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "NXP": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "NXPParameter0": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter3": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "NXPParameter4": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter5": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter6": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter7": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter8": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter9": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "NXPParameter10": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter11": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter12": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter13": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter14": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter15": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "NXPParameter16": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter17": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter18": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter19": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter20": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter21": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "NXPParameter22": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter23": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter24": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter25": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "NXPParameter26": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "NXPParameter27": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "ZYNQ": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "ZYNQParameter0": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter3": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "ZYNQParameter4": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter5": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter6": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter7": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter8": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter9": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "ZYNQParameter10": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter11": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter12": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter13": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter14": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter15": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "ZYNQParameter16": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter17": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter18": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter19": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter20": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZYNQParameter21": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "ZYNQParameter22": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "Kintex": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "KintexParameter0": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter3": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "KintexParameter4": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter5": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter6": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter7": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter8": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter9": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "KintexParameter10": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter11": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter12": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter13": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter14": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter15": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "KintexParameter16": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter17": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter18": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter19": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter20": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexParameter21": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "KintexParameter22": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "DSP": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "DSPParameter0": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter3": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "DSPParameter4": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter5": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter6": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter7": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter8": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter9": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "DSPParameter10": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter11": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter12": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter13": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter14": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter15": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "DSPParameter16": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter17": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter18": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter19": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter20": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DSPParameter21": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "DSPParameter22": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "AFE7444": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "AFE7444Parameter0": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter3": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "AFE7444Parameter4": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter5": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter6": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter7": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter8": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter9": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "AFE7444Parameter10": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter11": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter12": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter13": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter14": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter15": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "AFE7444Parameter16": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter17": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter18": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter19": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter20": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "AFE7444Parameter21": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "AFE7444Parameter22": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "Spartran": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "SpartranParameter0": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter3": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "SpartranParameter4": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter5": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter6": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter7": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter8": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter9": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "SpartranParameter10": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter11": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter12": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter13": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter14": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter15": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "SpartranParameter16": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter17": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter18": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter19": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter20": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SpartranParameter21": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "SpartranParameter22": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "STM32": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "STM32Parameter0": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter3": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "STM32Parameter4": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter5": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter6": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter7": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter8": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter9": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "STM32Parameter10": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter11": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter12": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter13": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter14": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter15": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "STM32Parameter16": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter17": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter18": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter19": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter20": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32Parameter21": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "STM32Parameter22": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "RF": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "RFParameter0": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter3": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "RFParameter4": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter5": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter6": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter7": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter8": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter9": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "RFParameter10": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter11": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter12": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter13": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter14": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter15": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "RFParameter16": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter17": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter18": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter19": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter20": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter21": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFParameter22": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "ManageUsers": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "Add-Edit-User": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RemoveUser": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "EditRoles": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "SoftwareUpgrade": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        }
+    },
+    "ConfigAccessReport": {
+        "Access": {
+            "Accessible": 0,
+            "readonly": "0"
+        },
+        "parameters": {
+            "AccessLog": {
+                "Accessible": 0,
+                "readonly": "0"
+            },
+            "ConfigLog": {
+                "Accessible": 0,
+                "readonly": "0"
+            }
+        }
+    },
+    "ManageAccount": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "Language": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "Theme": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "EditRoles": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "Reboot": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        }
+    },
+    "Calibration": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        }
+    }
+}}

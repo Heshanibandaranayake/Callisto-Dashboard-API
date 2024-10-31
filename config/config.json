@@ -1,0 +1,5 @@
+{
+    "node_server_ip":"localhost",
+    "gui_version" :"2.2.1",
+    "cert_key_name" : "board12"
+}

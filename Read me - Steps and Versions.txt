@@ -1,0 +1,33 @@
+======================================================================================================
+INSTALLATION STEPS
+======================================================================================================
+Step 1: Change the following parameters in index.js - DRIVER_API_URL, NODE_SERVER_IP, NODE_SERVER_PORT
+Step 2: Change the MariaDB database parameters in /database/db.js
+Step 3: Execute this command to install Node packages - npm install
+Step 4: Execute this command to start the program - npm start
+
+======================================================================================================
+VERSION HISTORY
+======================================================================================================
+1.0 (Before 7th September 2022): All the older changes
+
+1.1 (7th September 2022):
+    - Login Logs API
+	- Config Logs API
+	
+1.2 (29th December 2022)
+	- Bug fixes in validation
+	- Frequency hopping configuration
+	
+	Changed files:
+		/index.js
+		/storage folder (a new directory)
+		
+1.3 (8th December 2022)
+	- Added Calibration functionality
+	- Added "Reset" config type
+	- Fixed repeated login logs bug
+	- Fixed configs logs bug (Only changed values will be logged)
+	
+	Changed files:
+		index.js

@@ -1,0 +1,361 @@
+{"accessrights":{
+    "Overview": {
+        "Access": {
+            "Accessible": 0,
+            "readonly": "1"
+        },
+        "parameters": {
+            "SystemDate": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "SystemTime": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "DeviceID": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DeviceIP": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DeviceSubnet": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "TrafficIpAddress": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "TrafficSubnet": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RxLock": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "Temperature": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "OptionalRunTime": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "PartNumber": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "SerialNumber": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RFBoardHardwareVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "RFBoardFirmwareVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "PowerSupplyBoardVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "DigitalBoardVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "NXPVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "KintexVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "ZynQVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "SpartanVersion": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "STM32Version": {
+                "Accessible": "1",
+                "readonly": "1"
+            },
+            "LNBOnOff": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+           
+        }
+    },
+    "Modem-Mode":{
+        "Access": {
+            "Accessible": "0",
+            "readonly": "0"
+        },
+        "parameters": {
+            "ModTxModeofOperation":{
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "Modulator-Demodulator": {
+        "Access": {
+            "Accessible": 0,
+            "readonly": "0"
+        },
+        "parameters": {
+            "ModTxFrequency": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxAttenuation1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxAttenuation2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModWaveformID": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxSymbolChipRate": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModRolloffFactor": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxDataRate": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxSpreadingFactor": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxBandSelect": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModFH": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModBandwidth": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModCWOnOff": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ModTxPower": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            
+            "DemodRxFrequency": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxAttenuation1": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxAttenuation2": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodWaveformID": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodTxSymbolRate": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRolloffFactor": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxLock": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxDataRate": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxBandSelect": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxPower": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodEsno": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodRxSpreadingFactor": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "DemodBandwidth": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    "QoS":{
+        "Access": {
+            "Accessible": "0",
+            "readonly": "0"
+        },
+        "parameters": {
+            
+        }
+    },
+    "BuiltInTest":{
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            
+        }
+    },  
+    "Monitor":{
+        "Access": {
+            "Accessible": "0",
+            "readonly": "0"
+        },
+        "parameters": {
+            
+        }
+    },  
+    "Alarms":{
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            
+        }
+    },  
+    "FirmwareUpgrade":{
+        "Access": {
+            "Accessible": "0",
+            "readonly": "0"
+        },
+        "parameters": {
+            "Zynq": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "Kintex": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+			"AFE": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "STM32": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "Spartan": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+			"NXP": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "ZynqBootL": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "KintexBootL": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },   
+    "ManageUsers": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "Add-Edit-User": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "RemoveUser": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "EditRoles": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    }, 
+    "ManageAccount": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "0"
+        },
+        "parameters": {
+            "Language": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "Theme": {
+                "Accessible": "1",
+                "readonly": "0"
+            },
+            "EditRoles": {
+                "Accessible": "1",
+                "readonly": "0"
+            }
+        }
+    },
+    
+    "Calibration": {
+        "Access": {
+            "Accessible": "0",
+            "readonly": "0"
+        }
+    },
+    "Logs": {
+        "Access": {
+            "Accessible": "1",
+            "readonly": "1"
+        },
+        "parameters": {}
+    },
+    "SelfTest": {
+        "Access": {
+            "Accessible": "0",
+            "readonly": "0"
+        },
+        "parameters": {}
+    }
+}}
